@@ -1,0 +1,34 @@
+# Requirements for Robust AlphaFold Structural Analysis
+# ===================================================
+
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# BioPython for structure handling and analysis
+biopython>=1.79
+
+# Visualization libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Additional scientific tools (optional but recommended)
+# ======================================================
+
+# For enhanced structural analysis (install separately if needed):
+# - TM-align: Download from https://zhanggroup.org/TM-align/
+#   Required for TM-score calculations and robust alignment
+# - PyMOL: For advanced visualization
+#   pip install pymol-open-source (or commercial PyMOL)
+
+# Development and testing (optional)
+# ==================================
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+
+# Jupyter support (optional)
+# ===========================
+# jupyter>=1.0.0
+# ipywidgets>=7.6.0 

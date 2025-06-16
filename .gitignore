@@ -1,0 +1,30 @@
+# AlphaFold analysis outputs
+# Results and reports
+enhanced_analysis_*.csv
+enhanced_analysis_*.json
+enhanced_analysis_*.md
+robust_analysis_*.csv
+robust_analysis_interpretation.md
+control_analysis_report.csv
+protein_similarity_report.csv
+critical_findings_report.md
+analysis.md
+
+# Visualizations and images
+robust_rmsd_analysis.png
+visualizations/
+*.png
+*.pse
+
+# AlphaFold intermediate/output folders
+folds_*/
+
+# Ignore PDFs and large data
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store 
