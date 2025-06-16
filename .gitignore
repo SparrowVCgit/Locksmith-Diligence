@@ -1,3 +1,20 @@
+# Ignore everything by default
+*
+
+# But not these files!
+!robust_alphafold_analysis.py
+
+# Explicitly ignore these files
+visualize_robust_results.py
+script_workflow_explanation.md
+data-of-proteins.md
+create_visualization.py
+
+# Still ignore Python cache and system files
+__pycache__/
+*.pyc
+.DS_Store
+
 # AlphaFold analysis outputs
 # Results and reports
 enhanced_analysis_*.csv
@@ -12,19 +29,15 @@ analysis.md
 
 # Visualizations and images
 robust_rmsd_analysis.png
-visualizations/
 *.png
 *.pse
-
-# AlphaFold intermediate/output folders
-folds_*/
 
 # Ignore PDFs and large data
 *.pdf
 
-# Python cache
-__pycache__/
-*.pyc
+# AlphaFold intermediate/output folders
+create_visualization.py
+data-of-proteins.md
+visualize_robust_results.py
 
-# System files
-.DS_Store 
+data/
